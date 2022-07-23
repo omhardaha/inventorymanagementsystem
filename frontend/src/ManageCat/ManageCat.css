@@ -1,0 +1,9 @@
+.hmanage{
+    text-align: center;
+    margin-top: 40px;
+}
+.pdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

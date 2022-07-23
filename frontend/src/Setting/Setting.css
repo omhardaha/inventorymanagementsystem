@@ -1,0 +1,72 @@
+.setting {
+	display: flex;
+}
+.settingWrapper {
+	flex: 9;
+	margin-left: 20px;
+}
+.settingTitle {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.settingUpdateTitle {
+	font-size: 30px;
+	color: lightcoral;
+}
+.settingDeleteTitle {
+	color: red;
+	font-size: 12px;
+	cursor: pointer;
+}
+.settingForm {
+	display: flex;
+	flex-direction: column;
+}
+.settingPP {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+.settingPP > img {
+	width: 70px;
+	height: 70px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+.settingPPIcon {
+	width: 25px;
+	height: 25px;
+	background-color: lightcoral;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+	color: white;
+	cursor: pointer;
+}
+.settingForm > input {
+	color: gray;
+	margin: 10px 0;
+	height: 30px;
+
+	border: none;
+	border-bottom: 1px solid lightgray;
+}
+.settingForm > label {
+	font-size: 20px;
+	margin-top: 20px;
+}
+.settingSubmit {
+	width: 150px;
+    border-radius: 10px;
+    color: white;
+    background-color: #757575;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    align-self: center;
+    font-family: 'Josefin Sans'
+}

@@ -1,0 +1,48 @@
+.login{
+    font-family: 'Josefin Sans';
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    justify-content: center;
+    /* background: linear-gradient(rgba(231, 231, 231, 0.44),rgb(0 0 0 / 56%)) ,url(https://stock.adobe.com/lv/search?k=brown+gradient+background); */
+    background-size: cover;
+    align-items: center;
+}
+.loginButton{
+    width: 150px;
+	border-radius: 10px;
+	color: white;
+	background-color: lightcoral;
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+	border: none;
+	align-self: center;
+}
+.loginButton:disabled{
+    cursor: progress;
+    background-color: rgba(137, 76, 76, 0.57);
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm > label{
+    margin: 10px 0;
+}
+.loginForm > input{
+    background-color: white;
+    padding: 10px;
+    border: none;
+}
+.centerDiv{
+    text-align: center;
+    
+}
+.logbut{
+    text-align: center;
+}
